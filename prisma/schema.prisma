@@ -27,3 +27,4 @@ model vote {
   id      String @id @default(auto()) @map("_id") @db.ObjectId
   counter Int
 }
+ 
